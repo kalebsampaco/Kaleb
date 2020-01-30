@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache" />
+	<META HTTP-EQUIV="Expires" CONTENT="-1" />
+	<title>Rayos X</title>
+	<script type="text/javascript" src="../../configuracion/libreria.js"></script>
+	<script type="text/javascript" language="javascript">
+			jQuery(document).ready(
+				function(){
+					var flashvars = {};
+					var params = {};
+					var attributes = {};
+
+					if(jQuery.getUrlVar("i")) flashvars.i = jQuery.getUrlVar("i");
+
+					params.menu = "false";
+					params.allowFullScreen = "true";
+					params.allowScriptAccess = "always";
+					
+					attributes.id = "rayosx";
+					attributes.bgcolor = "#ffffff";
+
+					cargarLibro('rayosx.swf', 'contenido', 9, '775', '549', flashvars, params, attributes);
+				}
+			);
+			function cerrar_Ventana(){
+				window.close();
+			}
+	</script>
+	<style type="text/css">
+	<!--
+		body {
+			background-color: #ffffff;
+			margin: 0;
+			padding: 0;
+			overflow:hidden
+		}
+		.Estilo1 {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #999999;
+			font-size: 12px;
+		}
+		img {
+			border: 0;
+		}
+	-->
+	</style>
+</head>
+<body>
+	<div id="salir"><form><input type="button" value="Cerrar Ventana" name="btn" onClick="cerrar_Ventana()" /></form></div>
+	<div id="contenedor" align="center" style="width:100%; height:100%"></div>
+</body>
+</html>

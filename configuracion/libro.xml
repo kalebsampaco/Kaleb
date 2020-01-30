@@ -1,0 +1,365 @@
+<fundacion alto="550" ancho="775" scorm="0">
+  <pagina locked="0" id="1">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento titulo="la paz" flv="galeria/videos/videos propios/[_2_]CONVIVENCIA(youtube.com).mp4" alto_px="260" ancho_px="240" alto="132.7" ancho="208.75" rotation="0" posy="98" posx="242" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="1b"/>
+  <pagina locked="0" id="2">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_006.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/ordenarElementos.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="20" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Ordena el versículo"/>
+          <instrucciones name="instrucciones"><![CDATA[ordena el vesículo]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="3"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" nParejas="7"/>
+          <parejas name="numeroParejas" num="10">
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[La paz os dejo,]]></respuesta>
+            </pareja>
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[mi paz os doy;]]></respuesta>
+            </pareja>
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[Yo no os la doy]]></respuesta>
+            </pareja>
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[como el mundo la da.]]></respuesta>
+            </pareja>
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[no se turbe ]]></respuesta>
+            </pareja>
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[vuestro corazón,]]></respuesta>
+            </pareja>
+            <pareja>
+              <respuesta name="txtTexto"><![CDATA[ni tenga miedo.]]></respuesta>
+            </pareja>
+          </parejas>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy Bien!!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_hombre.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="2b"/>
+  <pagina locked="0" id="3">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]U9_indice_lucas.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento alto_px="128" ancho_px="128" alto="100" ancho="100" rotation="0.92" posy="275" posx="357.97" tipo="RayosX" imagen="galeria/imagenes/cuadernia/Los poliedros/[_2_]935918985.png" src="17">
+      <escena id="28" name="RayosX">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="descubre el personaje"/>
+          <instrucciones name="instrucciones"><![CDATA[busca el personaje que esta oculto en la imagen]]></instrucciones>
+          <imagen name="imagen" img="galeria/imagenes/Objetos/[_2_]Esp_01.jpg"/>
+          <imagen name="fondo" img="galeria/imagenes/mia/[_2_]Jesus.jpg"/>
+          <cmbLupa name="Lupa" valor="1"/>
+          <tamano name="Ancho" valor=""/>
+          <tamano name="Alto" valor=""/>
+          <tamano name="Radio" valor="20"/>
+        </paso1>
+      </escena>
+    </elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="44" ancho_px="272" alto="100" ancho="100" rotation="0" posy="266" posx="286" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="daniel" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1"><B><I>Has clic sobre esta imagen</I></B><FONT SIZE="16"></FONT></FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento forma="galeria/formas/f13.swf" rellenar="true" colorear="16711680" alto_px="99" ancho_px="67" alto="100" ancho="100" rotation="0" posy="154" posx="103" tipo="forma" src="4"/>
+  </pagina>
+  <pagina locked="0" id="3b"/>
+  <pagina locked="0" id="4">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/preguntas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="2" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Personaje"/>
+          <instrucciones name="instrucciones"><![CDATA[Quien era el personaje de la imagen?]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="45" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" respuestas="6" texto="¿Quién es el personaje?"/>
+          <respuesta name="respuesta" texto="Pedro" correcta="false"/>
+          <respuesta name="respuesta" texto="Juan" correcta="false"/>
+          <respuesta name="respuesta" texto="Lucas" correcta="false"/>
+          <respuesta name="respuesta" texto="Jesús" correcta="true"/>
+          <respuesta name="respuesta" texto="Judas" correcta="false"/>
+          <respuesta name="respuesta" texto="Pablo" correcta="false"/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_hombre.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="4b"/>
+  <pagina locked="0" id="5">
+    <elemento colorFondo="16777215" alfaFondo="100" imagen="vacio" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/preguntas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="2" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Personaje"/>
+          <instrucciones name="instrucciones"><![CDATA[Quien era el personaje de la imagen?]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" respuestas="6" texto="¿Quién es el personaje?"/>
+          <respuesta name="respuesta" texto="Pedro" correcta="false"/>
+          <respuesta name="respuesta" texto="Juan" correcta="false"/>
+          <respuesta name="respuesta" texto="Lucas" correcta="false"/>
+          <respuesta name="respuesta" texto="Jesús" correcta="true"/>
+          <respuesta name="respuesta" texto="Judas" correcta="false"/>
+          <respuesta name="respuesta" texto="Pablo" correcta="false"/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_hombre.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="5b"/>
+  <pagina locked="0" id="6">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/crucigrama.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="16" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Defiendo las palabras"/>
+          <instrucciones name="instrucciones"><![CDATA[Se dará la definición de las palabras y tendrás que encontrar las palabras]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="180" intentos="3"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" nParejas="5"/>
+          <parejas name="numeroParejas" num="10">
+            <pareja>
+              <pregunta name="txtTexto1"><![CDATA[Ausencia de guerra y conflicto. cuando los niños no estan en la casa.]]></pregunta>
+              <respuesta name="txtTexto2"><![CDATA[PAZ]]></respuesta>
+            </pareja>
+            <pareja>
+              <pregunta name="txtTexto1"><![CDATA[desacuerdo entre personas. cuando los papás no se ponen de acuerdo]]></pregunta>
+              <respuesta name="txtTexto2"><![CDATA[CONFLICTO]]></respuesta>
+            </pareja>
+            <pareja>
+              <pregunta name="txtTexto1"><![CDATA[Uso de la fuerza desmedida para conseguir lo que se desea.]]></pregunta>
+              <respuesta name="txtTexto2"><![CDATA[VIOLENCIA]]></respuesta>
+            </pareja>
+            <pareja>
+              <pregunta name="txtTexto1"><![CDATA[Pena que se impone al hijo cuando ha tenido un mal comportamiento.]]></pregunta>
+              <respuesta name="txtTexto2"><![CDATA[CASTIGO]]></respuesta>
+            </pareja>
+            <pareja>
+              <pregunta name="txtTexto1"><![CDATA[No dar el castigo que merece por su falta. No tomar en cuenta una deuda pendiente, una ofensa recibida o de una pena merecida por la falta.]]></pregunta>
+              <respuesta name="txtTexto2"><![CDATA[PERDON]]></respuesta>
+            </pareja>
+          </parejas>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_mujer.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="6b"/>
+  <pagina locked="0" id="7">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/emparejar.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="18" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="relación palabra imagen"/>
+          <instrucciones name="instrucciones"><![CDATA[relaciona la palabra con la imagen que concuerde]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="60" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" nParejas="4"/>
+          <parejas name="numeroParejas" num="4">
+            <pareja>
+              <imagen name="txtImagen"><![CDATA[galeria/imagenes/mia/[_2_]NINOS-GUERRA-SIRIA-_01-1024x682.jpg]]></imagen>
+              <texto name="lstPalabras1"><![CDATA[Paz]]></texto>
+              <texto name="lstPalabras2"><![CDATA[]]></texto>
+              <texto name="lstPalabras3"><![CDATA[]]></texto>
+            </pareja>
+            <pareja>
+              <imagen name="txtImagen"><![CDATA[galeria/imagenes/mia/[_2_]Violencia.jpg]]></imagen>
+              <texto name="lstPalabras1"><![CDATA[Violencia]]></texto>
+              <texto name="lstPalabras2"><![CDATA[]]></texto>
+              <texto name="lstPalabras3"><![CDATA[]]></texto>
+            </pareja>
+            <pareja>
+              <imagen name="txtImagen"><![CDATA[galeria/imagenes/mia/[_2_]castigo.jpg]]></imagen>
+              <texto name="lstPalabras1"><![CDATA[Castigo]]></texto>
+              <texto name="lstPalabras2"><![CDATA[]]></texto>
+              <texto name="lstPalabras3"><![CDATA[]]></texto>
+            </pareja>
+            <pareja>
+              <imagen name="txtImagen"><![CDATA[galeria/imagenes/mia/[_2_]perdon.jpg]]></imagen>
+              <texto name="lstPalabras1"><![CDATA[Perdón]]></texto>
+              <texto name="lstPalabras2"><![CDATA[]]></texto>
+              <texto name="lstPalabras3"><![CDATA[]]></texto>
+            </pareja>
+          </parejas>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_mujer.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="7b"/>
+  <pagina locked="0" id="8">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento titulo="Qué palabra se relaciona con el video" flv="galeria/videos/videos propios/[_2_]Condorito_Castigo(youtube.com).mp4" alto_px="260" ancho_px="240" alto="73.85" ancho="82.92" rotation="0" posy="22" posx="20" tipo="video" src="7"/>
+    <elemento titulo="Qué palabra se relaciona con el video" flv="galeria/videos/videos propios/[_2_]Hay_que_perdonar_jworg(youtube.com).mp4" alto_px="260" ancho_px="240" alto="74.24" ancho="85.42" rotation="0" posy="22" posx="256" tipo="video" src="7"/>
+    <elemento titulo="Qué palabra se relaciona con el video" flv="galeria/videos/videos propios/[_2_]LA_ESCALERA_DE_LA_VIOLENCIA(youtube.com).mp4" alto_px="260" ancho_px="240" alto="75" ancho="82.09" rotation="0" posy="28" posx="537" tipo="video" src="7"/>
+    <elemento titulo="Qué palabra se relaciona con el video" flv="galeria/videos/videos propios/[_2_]SITUACIONES_DEL_DIARIO_VIVIR__-_LAPAZCOTIDIANA(youtube.com).mp4" alto_px="260" ancho_px="240" alto="76.55" ancho="83.34" rotation="0" posy="243" posx="107" tipo="video" src="7"/>
+    <elemento titulo="Qué palabra se relaciona con el video" flv="galeria/videos/videos propios/[_2_]SPOT_CONVIVENCIA_PACIFICA_ESCOLAR(youtube.com).mp4" alto_px="260" ancho_px="240" alto="81.16" ancho="86.25" rotation="0" posy="239" posx="379" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="8b"/>
+  <pagina locked="0" id="9">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento titulo="buena convivencia" flv="galeria/videos/videos propios/[_2_]Reglas_del_Salon_de_Clases_Minions(youtube.com).mp4" alto_px="260" ancho_px="240" alto="193.08" ancho="291.67" rotation="0" posy="25" posx="22" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="9b"/>
+  <pagina locked="0" id="10">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/animacion/cuadernia/mia/[_2_]litelbanners6.swf" alto_px="549" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-227" posx="-1623" tipo="animacion" src="8"/>
+    <elemento imagen="galeria/animacion/cuadernia/mia/[_2_]linea_tiempo_antecedentes.swf" alto_px="549" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-6" posx="-6" tipo="animacion" src="8"/>
+  </pagina>
+  <pagina locked="0" id="10b"/>
+  <pagina locked="0" id="11">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]libros_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]Paloma.jpg" salto="12" alto_px="225" ancho_px="225" alto="119.56" ancho="151.56" rotation="0" posy="204" posx="302" tipo="hipervinculo" src="5"/>
+    <elemento fondo="39321" borde="255" alto_px="152" ancho_px="250" alto="100" ancho="100" rotation="0" posy="25" posx="236" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="26" COLOR="#0B333C" LETTERSPACING="0" KERNING="0"><B>BIenvenido a nuestra segunda lección</B></FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="11b"/>
+  <pagina locked="0" id="12">
+    <elemento colorFondo="16777215" alfaFondo="100" imagen="vacio" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/animacion/cuadernia/mia/[_2_]dados_1.swf" alto_px="549" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-6" posx="-6" tipo="animacion" src="8"/>
+  </pagina>
+  <pagina locked="0" id="12b"/>
+  <pagina locked="0" id="13">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]U9_bibliografia_lucas.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]como.jpg" salto="16" alto_px="361" ancho_px="803" alto="46.7" ancho="28.15" rotation="-5.12" posy="299" posx="510" tipo="hipervinculo" src="5"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]descarga.png" salto="14" alto_px="155" ancho_px="326" alto="100" ancho="100" rotation="13.18" posy="11" posx="302" tipo="hipervinculo" src="5"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]porque.png" salto="15" alto_px="192" ancho_px="262" alto="100" ancho="100" rotation="-1.65" posy="256" posx="217.31" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="13b"/>
+  <pagina locked="0" id="14">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/[_2_]folios.png" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]descarga.png" salto="14" alto_px="155" ancho_px="326" alto="100" ancho="100" rotation="-4.72" posy="34" posx="-1" tipo="hipervinculo" src="5"/>
+    <elemento titulo="Qué cosas originan el conflicto" flv="galeria/videos/videos propios/[_2_]IGUALDAD_Y_NO_DISCRIMINACIN(youtube.com).mp4" alto_px="260" ancho_px="240" alto="100" ancho="100" rotation="-15.78" posy="221" posx="32.18" tipo="video" src="7"/>
+    <elemento titulo="Qué origina el conflicto" flv="galeria/videos/videos propios/[_2_]Honestidad_Justicia_-_Festival_2008(youtube.com).mp4" alto_px="260" ancho_px="240" alto="100" ancho="100" rotation="8.8" posy="158" posx="422" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="14b"/>
+  <pagina locked="0" id="15">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]U9_actividades_lucas.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]porque.png" salto="15" alto_px="192" ancho_px="262" alto="90.59" ancho="61.07" rotation="-19.4" posy="197" posx="271.9" tipo="hipervinculo" src="5"/>
+    <elemento titulo="antecedentes del conflicto. " flv="galeria/videos/videos propios/[_2_]LA_ESCALERA_DE_LA_VIOLENCIA(youtube.com).mp4" alto_px="260" ancho_px="240" alto="87.7" ancho="137.09" rotation="0" posy="82" posx="36" tipo="video" src="7"/>
+    <elemento titulo="antecedentes del conflicto" flv="galeria/videos/videos propios/[_2_]El_Puente(youtube.com).mp4" alto_px="260" ancho_px="240" alto="98.85" ancho="112.92" rotation="0" posy="175" posx="466" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="15b"/>
+  <pagina locked="0" id="16">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]objetivos_bego.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]como.jpg" salto="16" alto_px="361" ancho_px="803" alto="46.7" ancho="28.15" rotation="-5.12" posy="29" posx="232" tipo="hipervinculo" src="5"/>
+    <elemento titulo="conflictos que lleva a la violencia" flv="galeria/videos/videos propios/[_2_]Conflictos_-_No_pierdas_la_perspectiva(youtube.com).mp4" alto_px="260" ancho_px="240" alto="100" ancho="100" rotation="0" posy="229" posx="87" tipo="video" src="7"/>
+    <elemento titulo="conflictos que lleva a la violencia" flv="galeria/videos/videos propios/[_2_]tolerancia_cortometraje(youtube.com).mp4" alto_px="260" ancho_px="240" alto="100" ancho="100" rotation="0" posy="212" posx="430" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="16b"/>
+  <pagina locked="0" id="17">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]angulos_metodologia_fondo.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]Paloma.jpg" salto="18" alto_px="225" ancho_px="225" alto="119.56" ancho="151.56" rotation="0" posy="227" posx="335" tipo="hipervinculo" src="5"/>
+    <elemento fondo="39321" borde="255" alto_px="152" ancho_px="250" alto="100" ancho="100" rotation="0" posy="53" posx="201" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="26" COLOR="#0B333C" LETTERSPACING="0" KERNING="0"><B>BIenvenido a nuestra tercera lección</B></FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="17b"/>
+  <pagina locked="0" id="18">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]U9_introduduccion_lucas.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/puzzle.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="4" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="recordar las clases anteriores"/>
+          <instrucciones name="instrucciones"><![CDATA[ordena la imagen y recordemos las clases anteriores]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="180" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" imagen="galeria/imagenes/mia/[_2_]Fotos-de-Jesus-en-la-barca6.png" ancho="" alto="" filas="4" columnas="4"/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_hombre.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="18b"/>
+  <pagina locked="0" id="19">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]U9_indice_lucas.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/puzzle.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="4" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="recordar las clases anteriores"/>
+          <instrucciones name="instrucciones"><![CDATA[ordena la imagen y recordemos lo que hemos aprendido en las clases pasadas]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="180" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" imagen="galeria/imagenes/mia/[_2_]cainyabel.jpg" ancho="" alto="" filas="5" columnas="5"/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_hombre.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="19b"/>
+  <pagina locked="0" id="20">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/cuadernia/Los_climasRealidadAumentada/fondos/[_2_]U7_generico_bego.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]abraham-isaac.jpg" alto_px="277" ancho_px="245" alto="60.29" ancho="54.7" rotation="13.63" posy="333" posx="89" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]davidygoliat.jpg" alto_px="720" ancho_px="1280" alto="22.64" ancho="16.25" rotation="21.43" posy="41" posx="531" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]cainyabel.jpg" alto_px="230" ancho_px="188" alto="97.68" ancho="96.28" rotation="-13.85" posy="105" posx="29" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]canstock.jpg" alto_px="178" ancho_px="170" alto="31.47" ancho="33.53" rotation="0" posy="52" posx="153" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]esteban-saulo.jpg" alto_px="434" ancho_px="550" alto="45.63" ancho="44.73" rotation="-9.44" posy="312" posx="463" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]saulydavid.jpg" alto_px="245" ancho_px="400" alto="75.11" ancho="58.5" rotation="11.56" posy="209" posx="261" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]canstock.jpg" alto_px="178" ancho_px="170" alto="31.47" ancho="33.53" rotation="0" posy="38" posx="525" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]canstock.jpg" alto_px="178" ancho_px="170" alto="31.47" ancho="33.53" rotation="0" posy="304" posx="72" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]canstock.jpg" alto_px="178" ancho_px="170" alto="31.47" ancho="33.53" rotation="0" posy="191" posx="267" tipo="imagen" src="1"/>
+    <elemento imagen="galeria/imagenes/mia/[_2_]canstock.jpg" alto_px="178" ancho_px="170" alto="31.47" ancho="33.53" rotation="0" posy="260" posx="672" tipo="imagen" src="1"/>
+    <elemento fondo="16764057" borde="0" alto_px="99" ancho_px="293" alto="100" ancho="100" rotation="-5.2" posy="48" posx="220" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="26" COLOR="#0B333C" LETTERSPACING="0" KERNING="0"><B>Qué actos de violencia veo en mi entorno</B></FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="20b"/>
+  <pagina locked="0" id="21">
+    <elemento colorFondo="16777215" alfaFondo="100" imagen="vacio" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/ahorcado.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="26" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="descubre la frase"/>
+          <instrucciones name="instrucciones"><![CDATA[juega al ahorcado]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="120" intentos="4"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf"><![CDATA[Cristo trae la paz al corazon]]></conf>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!!!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]aplausos_01.mp3"/>
+          <msgFallo name="msgFallo" texto="Fallaste!!!"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]carraspeo_hombre.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+</fundacion>
